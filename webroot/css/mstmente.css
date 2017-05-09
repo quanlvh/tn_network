@@ -1,0 +1,50 @@
+#mstmente_area {
+
+}
+#mstmente_table {
+    width: 100%;
+    border-spacing: 5px;
+    table-layout: fixed;
+}
+
+#col {
+    padding: 10px;
+    vertical-align: top;
+}
+
+td {
+    padding-left: 60px;
+    width:25%;
+}
+
+
+.div_button {
+    width: 200px;
+    height: 80px;
+    margin: 15px auto;
+    padding: 10px 15px;
+    background-color: white;
+    box-sizing:border-box;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:5px;
+    -moz-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.349019607843137);
+    -webkit-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.349019607843137);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.349019607843137);
+    font-family:'メイリオ レギュラー', 'メイリオ';
+    font-weight:400;
+    font-style:normal;
+    font-size:20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#headoffice_title {
+    border-bottom: 2px #FF99FF solid;
+    font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  	font-weight:700;
+  	font-style:normal;
+  	font-size:20px;
+}
+

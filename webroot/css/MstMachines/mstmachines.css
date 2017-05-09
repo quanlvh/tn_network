@@ -1,0 +1,1299 @@
+@CHARSET "UTF-8";
+#mstmente_table {
+    width: 100%;
+    border-spacing: 5px;
+    table-layout: fixed;
+}
+
+#col {
+    padding: 10px;
+    vertical-align: top;
+}
+
+td {
+    padding-left: 60px;
+    width:25%;
+}
+
+
+.div_button {
+    width: 200px;
+    height: 80px;
+    margin: 15px auto;
+    padding: 10px 15px;
+    background-color: white;
+    box-sizing:border-box;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:5px;
+    -moz-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.349019607843137);
+    -webkit-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.349019607843137);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.349019607843137);
+    font-family:'メイリオ レギュラー', 'メイリオ';
+    font-weight:400;
+    font-style:normal;
+    font-size:20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#headoffice_title {
+    border-bottom: 2px #FF99FF solid;
+    font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  	font-weight:700;
+  	font-style:normal;
+  	font-size:20px;
+}
+#u00001a {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:220px;
+  width:300px;
+  word-wrap:break-word;
+}
+#u00002a {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:235px;
+  width:700px;
+  word-wrap:break-word;
+}
+
+#u00001 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:175px;
+  width:300px;
+  word-wrap:break-word;
+}
+#u00002 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:190px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00003 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:215px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00004 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:230px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00004_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00005 {
+  border-width:0px;
+  position:absolute;
+  left:465px;
+  top:215px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00005g {
+  border-width:0px;
+  position:absolute;
+  left:465px;
+  top:290px;
+  width:125px;
+  word-wrap:break-word;
+}
+#u00005_img {
+  border-width:0px;
+  position:absolute;
+  left:550px;
+  top:300px;
+  width:125px;
+  word-wrap:break-word;
+}
+#u00031_img {
+  border-width:0px;
+  position:absolute;
+  left:600px;
+  top:300px;
+  width:125px;
+  word-wrap:break-word;
+}
+#u00006 {
+  border-width:0px;
+  position:absolute;
+  left:515px;
+  top:230px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00006_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00007 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:295px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00008 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:310px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00009 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:215px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00010 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:230px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00010_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00011 {
+  border-width:0px;
+  position:absolute;
+  left:465px;
+  top:215px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00012 {
+  border-width:0px;
+  position:absolute;
+  left:515px;
+  top:230px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00012_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00013 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:295px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00014 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:310px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00015 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:215px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00016 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:230px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00016_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00017 {
+  border-width:0px;
+  position:absolute;
+  left:350px;
+  top:215px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00017_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00018 {
+  border-width:0px;
+  position:absolute;
+  left:425px;
+  top:230px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00018_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00019 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:255px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00019_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00020 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:270px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00020_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00021 {
+  border-width:0px;
+  position:absolute;
+  left:350px;
+  top:255px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00022 {
+  border-width:0px;
+  position:absolute;
+  left:425px;
+  top:270px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00022_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00023 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:295px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00024 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:310px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00025 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:215px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00026 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:230px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00026_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00027 {
+  border-width:0px;
+  position:absolute;
+  left:350px;
+  top:215px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00027_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00028 {
+  border-width:0px;
+  position:absolute;
+  left:425px;
+  top:230px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00028_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00029 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:255px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00029_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00030 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:270px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00030_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00031 {
+  border-width:0px;
+  position:absolute;
+  left:350px;
+  top:255px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00032 {
+  border-width:0px;
+  position:absolute;
+  left:425px;
+  top:270px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00032_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00033 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:295px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00034 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:310px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00035 {
+  border-width:0px;
+  position:absolute;
+  left:350px;
+  top:295px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00036 {
+  border-width:0px;
+  position:absolute;
+  left:480px;
+  top:310px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00036_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00037 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:215px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00038 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:230px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00038_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00039 {
+  border-width:0px;
+  position:absolute;
+  left:350px;
+  top:215px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00039_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00039_img {
+  border-width:0px;
+  position:absolute;
+  left:425px;
+  top:285px;
+  width:125px;
+  word-wrap:break-word;
+}
+#u00040 {
+  border-width:0px;
+  position:absolute;
+  left:425px;
+  top:230px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00040_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00041 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:255px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00041_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:290px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00042 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:270px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00042_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00043 {
+  border-width:0px;
+  position:absolute;
+  left:350px;
+  top:255px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00044 {
+  border-width:0px;
+  position:absolute;
+  left:425px;
+  top:270px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00044_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00045 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:295px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00046 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:310px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00047 {
+  border-width:0px;
+  position:absolute;
+  left:350px;
+  top:295px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00048 {
+  border-width:0px;
+  position:absolute;
+  left:480px;
+  top:310px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00048_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00049 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:260px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00049_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00050 {
+  border-width:0px;
+  position:absolute;
+  left:130px;
+  top:275px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00050_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00051 {
+  border-width:0px;
+  position:absolute;
+  left:465px;
+  top:260px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00051_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00052 {
+  border-width:0px;
+  position:absolute;
+  left:515px;
+  top:275px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00052_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00053 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:300px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00053_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00054 {
+  border-width:0px;
+  position:absolute;
+  left:130px;
+  top:320px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00054_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:315px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00055 {
+  border-width:0px;
+  position:absolute;
+  left:20px;
+  top:340px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00055_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:315px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00056 {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:355px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00056_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:315px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00057 {
+  border-width:0px;
+  position:absolute;
+  left:465px;
+  top:340px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00057_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:315px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00058 {
+  border-width:0px;
+  position:absolute;
+  left:620px;
+  top:355px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00058_input {
+  border-width:1px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:315px;
+  height:25px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  text-align:left;
+}
+#u00059_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:146px;
+  height:40px;
+  background:inherit;
+  background-color:rgba(22, 155, 213, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:5px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  font-weight:700;
+  font-style:normal;
+  font-size:18px;
+  color:#FFFFFF;
+}
+#u00059 {
+  border-width:0px;
+  position:absolute;
+  left:320px;
+  top:400px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00060_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:135px;
+  height:40px;
+  background:inherit;
+  background-color:rgba(255, 153, 0, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:5px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  font-weight:700;
+  font-style:normal;
+  font-size:18px;
+  color:#FFFFFF;
+}
+#u00060 {
+  border-width:0px;
+  position:absolute;
+  left:750px;
+  top:400px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00061 {
+  border-width:0px;
+  position:absolute;
+  left:570px;
+  top:400px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00062_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:146px;
+  height:40px;
+  background:inherit;
+  background-color:rgba(255, 153, 0, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:5px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  font-weight:700;
+  font-style:normal;
+  font-size:18px;
+  color:#FFFFFF;
+}
+
+#u00062 {
+  border-width:0px;
+  position:absolute;
+  left:700px;
+  top:400px;
+  width:146px;
+  height:40px;
+  font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  font-weight:700;
+  font-style:normal;
+  font-size:18px;
+  color:#FFFFFF;
+}
+#u00063 {
+  border-width:0px;
+  position:absolute;
+  left:400px;
+  top:400px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00064_img {
+  border-width:0px;
+  position:absolute;
+  left:-1px;
+  top:-1px;
+  width:941px;
+  height:5px;
+}
+#u00064 {
+  border-width:0px;
+  position:absolute;
+  left:54px;
+  top:470px;
+  width:938px;
+  height:2px;
+  font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  font-weight:700;
+  font-style:normal;
+  color:#FF99FF;
+}
+#u00065 {
+  border-width:0px;
+  position:absolute;
+  left:2px;
+  top:-7px;
+  width:934px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u00066_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:121px;
+  height:30px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  font-weight:700;
+  font-style:normal;
+  font-size:20px;
+}
+#u00066 {
+  border-width:0px;
+  position:absolute;
+  left:25px;
+  top:0px;
+  width:121px;
+  height:30px;
+  font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  font-weight:700;
+  font-style:normal;
+  font-size:20px;
+}
+
+#u00067 {
+  border-width:0px;
+  position:absolute;
+  left:50px;
+  top:420px;
+  width:700px;
+  word-wrap:break-word;
+}
+#u00068_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:420px;
+  height:30px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-style:normal;
+  font-size:20px;
+}
+#u00068 {
+  border-width:0px;
+  position:absolute;
+  left:51px;
+  top:460px;
+  width:420px;
+  height:30px;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-style:normal;
+  font-size:20px;
+}
+#u00070 {
+  border-width:0px;
+  position:absolute;
+  left:54px;
+  top:552px;
+  width:927px;
+  height:210px;
+}
+
+
+#firstBox {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:480px;
+  width:700px;
+  word-wrap:break-word;
+}
+#secondBox {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:480px;
+  width:700px;
+  word-wrap:break-word;
+}
+#thirdBox {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:480px;
+  width:700px;
+  word-wrap:break-word;
+}
+#fourthBox {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:480px;
+  width:700px;
+  word-wrap:break-word;
+}
+#fifthBox {
+  border-width:0px;
+  position:absolute;
+  left:125px;
+  top:480px;
+  width:700px;
+  word-wrap:break-word;
+}

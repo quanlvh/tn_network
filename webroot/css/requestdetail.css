@@ -1,0 +1,49 @@
+div.detail_area {
+    border-width: 1px;
+    border-color: gray;
+    border-style:  solid;
+    border-radius: 10px;
+    padding: 5px 20px;
+    
+    margin: 20px 0;
+}
+
+table.detail_table {
+    width: 100%;
+}
+
+table.detail_table th{
+    text-align: left;
+    background-color: lightgrey;
+    font-weight: 500;
+}
+
+#step_box {
+    overflow: hidden;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.steps {
+    list-style: none;
+    padding: 0;
+}
+
+.steps li {
+    background-color: lightgray;
+    padding: 10px 30px;
+    margin: 1px 0;
+    border: 1px solid #000;
+}
+
+.steps li.current {
+    font-weight: 700;
+    background-color: #fffa90;
+}
+.steps li.after {
+    background-color: white;
+}
+
+div.input.text {
+    display: inline;
+}

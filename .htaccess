@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+</IfModule>
+<Files ~ "\.(html|php|jpe?g|gif|png|css|js|pdf)$">
+Header add Pragma "no-cache"
+Header set Cache-Control no-cache
+</Files>

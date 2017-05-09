@@ -1,0 +1,105 @@
+
+#news_area{
+	padding:10px;
+    clear:both;
+}
+
+#news_area .block_body {
+    border: 1px solid #000000;
+	background-color: #fff;
+}
+
+
+#news_area .news_contents {
+    padding-right: 10px;
+    max-height: 120px;
+    min-height:50px;
+    height: auto !important;
+    /*height: 260px;*/
+    overflow:auto;
+    overflow-y:scroll;
+	clear:both;
+}
+#news_area dl.newslist {
+    background: url("../img/line_dot_01.gif") repeat-x bottom;
+}
+#news_area dl.newslist dt {
+    margin-bottom: 5px;
+}
+#news_area dl.newslist dd {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+#news_area dl.end {
+    padding: 10px 0;
+    background: url("") no-repeat bottom;
+}
+
+
+#request_area {
+
+}
+#request_table {
+    width: 100%;
+    border-spacing: 20px;
+}
+#trustee {
+    background-color: rgb(242,242,242);
+    padding: 10px 20px 10px 20px;
+    vertical-align: top;
+}
+#trustee_title {
+    border-bottom: 2px #FF99FF solid;
+}
+#request {
+    background-color: rgb(242,242,242);
+    padding: 10px 20px 10px 20px;
+    vertical-align: top;
+}
+#request_title {
+    border-bottom: 2px #FF99FF solid;
+}
+
+#function_area {
+    width: 91.5%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgb(242,242,242);
+}
+
+#function_title {
+    border-bottom: 2px #FF99FF solid;
+}
+
+td.left_area {
+    padding-left: 60px;
+}
+
+.div_button {
+    width: 395px;
+    height: 80px;
+    margin: 15px auto;
+    padding: 25px 20px;
+    background-color: white;
+    box-sizing:border-box;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:5px;
+    -moz-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.349019607843137);
+    -webkit-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.349019607843137);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.349019607843137);
+    font-family:'メイリオ レギュラー', 'メイリオ';
+    font-weight:400;
+    font-style:normal;
+    font-size:20px;
+    text-align: center;
+    cursor: pointer;
+}
+.div_button img {
+    float: left;
+    position: relative;
+    top: -5px;
+}
+
+

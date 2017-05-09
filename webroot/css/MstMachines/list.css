@@ -1,0 +1,122 @@
+#conditions_area {
+
+}
+#conditions_title {
+    border-bottom: 2px #FF99FF solid;
+    font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  	font-weight:700;
+  	font-style:normal;
+  	font-size:20px;}
+
+#conditions_table {
+    width: 100%;
+    border-spacing: 10px;
+	table-layout:fixed;
+}
+#condition {
+    padding: 5px 5px 10px 10px;
+    vertical-align: top;
+}
+.div_button {
+  width:146px;
+  height:40px;
+  background-color:rgba(255, 153, 0, 1);
+  box-sizing:border-box;
+  border-width:0px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:5px;
+  border-width:1px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'メイリオ レギュラー', 'メイリオ';
+  font-weight:700;
+  font-style:normal;
+  font-size:18px;
+  color:#FFFFFF;
+  text-align: center;
+  cursor: pointer;
+}
+#result_list_area{
+
+}
+#result_list_area2 {
+  position:absolute;
+  left:87px;
+  top:708px;
+  width:757px;
+  height:216px;
+  z-index:1;
+}
+#result_list_title {
+    border-bottom: 2px #FF99FF solid;
+    font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  	font-weight:700;
+  	font-style:normal;
+  	font-size:20px;}
+}
+#search_result_list {
+  border-width:0px;
+  position:absolute;
+  left:54px;
+  top:506px;
+  width:908px;
+  height:216px;
+}
+
+
+#span_right{
+	float:right;
+	margin-top:-20;
+}
+
+.div_button_next {
+  min-width: 140px;
+  height:40px;
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:5px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  font-weight:700;
+  font-style:normal;
+  font-size:16px;
+  cursor: pointer;
+  background-color:rgba(255, 153, 0, 1);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding-top:7px;
+}
+
+.div_button_rtn {
+  width: 140px;
+  height:40px;
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:5px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'メイリオ ボールド', 'メイリオ レギュラー', 'メイリオ';
+  font-weight:700;
+  font-style:normal;
+  font-size:16px;
+  cursor: pointer;
+  background-color:rgba(121, 121, 121, 1);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding-top:7px;
+}
+
+#addTBody tr:first-child {
+  display: none;
+}

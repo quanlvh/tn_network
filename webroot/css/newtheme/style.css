@@ -1,0 +1,1064 @@
+/** Form **/
+.nice-select {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    line-height: 22px;
+    border-color: #d9d9d9;
+}
+
+.nice-select.open .list {
+    width: 100%;
+}
+
+.nice-select .option {
+    line-height: 34px;
+    min-height: 34px;
+}
+
+fieldset {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form.form-grid label {
+    padding-top: 7px;
+}
+
+form.form-grid .form-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border-color: #d9d9d9;
+    box-shadow: none;
+}
+
+.form-control.form-control-lg {
+    height: 40px;
+    font-size: 15px;
+}
+
+.form-actions {
+    padding-top: 15px;
+}
+
+.form-actions .btn:not(.no-margin) {
+    margin-right: 10px;
+}
+
+.form-actions.text-center .btn:not(.no-margin) {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.form-actions .btn:last-child {
+    margin-right: 0;
+}
+
+.form-actions.text-center .btn:not(.no-margin):last-child {
+    margin-right: 8px;
+}
+
+.form-control:focus {
+    border-color: #008079;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+label {
+    color: #515151;
+    font-weight: normal;
+}
+
+.btn {
+    color: #515151;
+    border: none;
+    transition: all 0.2s linear;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn.btn-gray {
+    background: #d9d9d9;
+}
+
+.btn.btn-brown {
+    background: #6d6b6c;
+    color: #ffffff;
+}
+
+.btn.btn-white {
+    background: #ffffff;
+}
+
+.btn.btn-lg {
+    font-size: 16px;
+    min-width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn.btn-xlg {
+    font-size: 16px;
+    min-width: 180px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btn.btn-tab {
+    background: #d9d9d9;
+    border-radius: 0;
+    min-width: 150px;
+}
+
+.btn.btn-tab.focus,
+.btn.btn-tab:focus {
+    outline: none;
+}
+
+.active .btn.btn-tab,
+.btn.btn-tab:hover,
+.btn.btn-tab:active,
+.btn.btn-tab:active:hover {
+    background: #0076cd;
+    color: #ffffff;
+}
+
+.bg-danger {
+    background: #fd7100;
+}
+
+.btn.btn-danger {
+    background: #fd7100;
+    color: #ffffff;
+}
+
+body .btn:hover {
+    color: #fff;
+    background-color: #008079;
+    border-color: transparent;;
+}
+
+.form-inline .form-group.full-width {
+    display: block;
+}
+
+.form-inline .form-group.medium-width {
+    width: 60%;
+}
+
+.form-inline .form-group.medium-width > .form-control {
+    width: 100%;
+}
+
+.form-inline .form-group.full-width > .form-control {
+    display: block;
+    width: 100%;
+}
+
+
+.form-inline .radio {
+    margin-right: 20px;
+    padding-right: 30px;
+}
+
+.form-inline .radio:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.form-inline .form-group {
+    padding-right: 15px;
+    margin-right: 20px;
+}
+
+.form-inline .form-group:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.btn-warning:focus, .btn-warning.focus {
+    background-color: #ffcc00;
+    border-color: #e6b800;
+    color: #515151;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: 1px auto #dddddd;
+}
+
+a:not(.btn):focus {
+    outline: 1px auto #dddddd;
+}
+
+/** Page Layout **/
+.content-render {
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+.over-large-gutter {
+    margin-left: -40px;
+    margin-right: -20px;
+}
+
+/** Process Nav **/
+.process-nav.nav-tabs.nav-justified {
+    margin-bottom: 5px;
+}
+
+.process-nav li {
+    padding: 0;
+    border-radius: 0;
+    padding-right: 46px;
+    position: relative;
+}
+
+.process-nav li a {
+    background: #d9d9d9;
+    color: #6d6b6b;
+    display: block;
+    text-decoration: none;
+    border-radius: 0;
+    line-height: 32px;
+    position: static;
+}
+
+.process-nav li a:hover,
+.process-nav li a:active,
+.process-nav li a:focus,
+.process-nav li a:active:hover {
+    background: #d9d9d9;
+}
+
+.process-nav li.active a,
+.nav-tabs.nav-justified.process-nav > .active > a,
+.nav-tabs.nav-justified.process-nav > .active > a:hover,
+.nav-tabs.nav-justified.process-nav > .active > a:focus {
+    background: #0077cc;
+    border: none;
+}
+
+.process-nav li a .arrow-right {
+    transition: all 0.2s linear;
+}
+
+.process-nav li.active a .arrow-right {
+    border-left-color: #0077cc;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 26px solid transparent;
+    border-bottom: 26px solid transparent;
+    border-left: 26px solid #d9d9d9;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.nav-tabs.nav-justified.process-nav > li > a {
+    border-radius: 0;
+    border: none;
+}
+
+/** Small Process Tab **/
+.process-nav.small-process-nav {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.process-nav.small-process-nav li {
+    padding-right: 34px;
+}
+
+.process-nav.small-process-nav li a {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 10px 6px;
+
+}
+
+.process-nav.small-process-nav li a .arrow-right {
+    border-top-width: 17px;
+    border-bottom-width: 17px;
+    border-left-width: 17px;
+    right: 17px;
+}
+
+.process-nav.small-process-nav li.active a,
+.nav-tabs.nav-justified.process-nav.small-process-nav > .active > a,
+.nav-tabs.nav-justified.process-nav.small-process-nav > .active > a:hover,
+.nav-tabs.nav-justified.process-nav.small-process-nav > .active > a:focus {
+    background: #00b3ec;
+    border: none;
+}
+
+.process-nav.small-process-nav li.active a .arrow-right {
+    border-left-color: #00b3ec;
+}
+
+/** Circle Tabs **/
+.nav-tabs.circle-tabs > li a {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    text-decoration: none;
+    color: #515151;
+    font-weight: bold;
+}
+
+.nav-tabs.circle-tabs > li a:hover,
+.nav-tabs.circle-tabs > li a:focus {
+    color: #018077;
+}
+
+.nav-tabs.nav-justified.circle-tabs > .active > a,
+.nav-tabs.nav-justified.circle-tabs > .active > a:hover,
+.nav-tabs.nav-justified.circle-tabs > .active > a:focus {
+    border: none;
+    color: #018077;
+}
+
+.nav-tabs.circle-tabs > li.active > a .tab-circle .circle,
+.nav-tabs.circle-tabs > li > a:hover .tab-circle .circle,
+.nav-tabs.circle-tabs > li > a:focus .tab-circle .circle {
+    background: #515151;
+    border-color: #515151;
+}
+
+.circle-tabs .circle-item a .tab-circle {
+    position: relative;
+    text-align: center;
+    height: 31px;
+}
+
+.circle-tabs .circle-item a .tab-circle .circle {
+    display: block;
+    width: 29px;
+    height: 29px;
+    border: solid 2px #d9d9d9;
+    border-radius: 50%;
+    background: #ffffff;
+    transition: all 0.2s linear;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+}
+
+.circle-tabs .circle-item a .tab-circle:before {
+    content: ' ';
+    display: block;
+    height: 2px;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    background: #d9d9d9;
+    z-index: 1;
+}
+
+.circle-tabs .circle-item a .tab-circle:after {
+    content: ' ';
+    display: block;
+    height: 2px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #d9d9d9;
+    z-index: 1;
+}
+
+.nav-tabs.circle-tabs > li:first-child a .tab-circle:before,
+.nav-tabs.circle-tabs > li:last-child a .tab-circle:after {
+    background: transparent;
+}
+
+.nav-tabs.circle-tabs > li a .tab-title {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.nav-tabs.circle-tabs > li .bottom-line {
+    width: 3px;
+    margin: 5px auto 0;
+    height: 25px;
+    background: transparent;
+    transition: all 0.2s linear;
+}
+
+.nav-tabs.circle-tabs > li.active .bottom-line,
+.nav-tabs.circle-tabs > li:hover .bottom-line {
+    background: #d9d9d9;
+}
+
+    /** Process Content **/
+.progress-footer {
+    padding: 30px 20px;
+}
+
+.progress-footer .btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/** Block Element **/
+.block {
+    padding-top: 10px;
+}
+
+.block .block-title {
+    border-bottom: solid 1px #6d6c6a;
+    font-size: 16px;
+    padding: 6px;
+    margin-bottom: 12px;
+}
+
+/** Section **/
+.section {
+    padding-top: 10px;
+}
+
+.section + .section {
+    padding-top: 20px;
+}
+
+.section .section-title {
+    font-size: 14px;
+    background: #d9d9d9;
+    padding: 6px;
+    margin: 0 0 10px 0;
+}
+/** Table **/
+.table {
+    background: #ffffff;
+}
+
+.table:last-child {
+    margin-bottom: 0;
+}
+
+.table > thead > tr > th {
+    border-bottom-width: 1px;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 1px;
+}
+
+.table td .description:last-child {
+    margin-bottom: 0;
+}
+
+.table > tbody + tbody {
+    border-top: none;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table thead > tr > td,
+.table tbody > tr > td,
+.table tfoot > tr > td {
+    padding: 8px 15px;
+    vertical-align: middle;
+    transition: all 0.2s linear;
+}
+.table.table-data > thead > tr > th,
+.table.table-data > tbody > tr > th,
+.table.table-data > tfoot > tr > th,
+.table.table-data thead > tr > td,
+.table.table-data tbody > tr > td,
+.table.table-data tfoot > tr > td {
+    padding: 10px 15px;
+}
+
+.table.table-centered > thead > tr > th,
+.table.table-centered > tbody > tr > th,
+.table.table-centered > tfoot > tr > th,
+.table.table-centered thead > tr > td,
+.table.table-centered tbody > tr > td,
+.table.table-centered tfoot > tr > td {
+    text-align: center;
+}
+
+.table-bordered.border-blue > thead > tr > th,
+.table-bordered.border-blue > tbody > tr > th,
+.table-bordered.border-blue > tfoot > tr > th,
+.table-bordered.border-blue > thead > tr > td,
+.table-bordered.border-blue > tbody > tr > td,
+.table-bordered.border-blue > tfoot > tr > td {
+    border: 1px solid #0076cd;
+}
+
+.table thead > tr > td.active,
+.table tbody > tr > td.active,
+.table tfoot > tr > td.active {
+    background: #0076cd;
+    color: #ffffff;
+}
+
+.table thead > tr > td.active *,
+.table tbody > tr > td.active *,
+.table tfoot > tr > td.active * {
+    color: #ffffff;
+}
+
+.table thead > tr > td.disabled,
+.table tbody > tr > td.disabled,
+.table tfoot > tr > td.disabled {
+    background: #d9d9d9;
+}
+
+.table-form label {
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+.table.table-form thead > tr > td,
+.table.table-form tbody > tr > td,
+.table.table-form tfoot > tr > td {
+    padding: 10px 20px;
+}
+
+.table.table-default thead {
+    background: #0076cd;
+}
+
+.table.table-info thead {
+    background: #00b3ed;
+}
+
+.table.table-primary thead {
+    background: #018079;
+}
+
+.table.table-brown thead {
+    background: #6d6b6c;
+}
+
+.table.table-default thead tr th,
+.table.table-primary thead tr th,
+.table.table-brown thead tr th,
+.table.table-info thead tr th {
+    color: #ffffff;
+}
+
+.table.table-form .checkbox label,
+.table.table-form .radio label {
+    color: #0076cd;
+    transition: all 0.2s linear;
+}
+
+.table.table-form .active .checkbox label,
+.table.table-form .active .radio label {
+    color: #ffffff;
+}
+
+.table.table-form .checkbox label input,
+.table.table-form .radio label input {
+    margin-right: 5px;
+}
+
+.table-text label {
+    margin-bottom: 0;
+}
+
+.table.table-text thead > tr > th,
+.table.table-text tbody > tr > th,
+.table.table-text tfoot > tr > th,
+.table.table-text thead > tr > td,
+.table.table-text tbody > tr > td,
+.table.table-text tfoot > tr > td {
+    padding: 8px 15px;
+    vertical-align: middle;
+    transition: all 0.2s linear;
+}
+
+.table.table-text thead tr th .caption {
+    line-height: 28px;
+}
+
+.pre-save-confirm {
+    padding-top: 15px;
+}
+
+.hidden-row {
+    padding: 0 !important;
+    border: none !important;
+}
+
+.toggle-collapse {
+    cursor: pointer;
+    text-decoration: none;
+    color: #515151;
+}
+
+.toggle-collapse:hover,
+.toggle-collapse:focus {
+    text-decoration: none;
+    color: #515151;
+}
+
+.toggle-collapse .icon-collapse {
+    color: #0076cd;
+    font-size: 14px;
+    transition: all 0.2s linear;
+}
+
+.toggle-collapse[aria-expanded="true"]  .icon-collapse {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+/** Sub Table **/
+.table .table {
+    background: #ffffff;
+    border: none;
+}
+
+.table .table thead > tr > td,
+.table .table tbody > tr > td,
+.table .table tfoot > tr > td {
+    border-left: none;
+}
+
+.table .table thead > tr > td:last-child:not(:first-child),
+.table .table tbody > tr > td:last-child:not(:first-child),
+.table .table tfoot > tr > td:last-child:not(:first-child) {
+    border-right: none;
+}
+
+.table.table-data {
+    border-radius: 5px;
+}
+/** Paragraph Content **/
+.paragraph-heading {
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+.paragraph-heading .heading-icon {
+    margin-right: 23px;
+    font-size: 16px;
+}
+
+.paragraph-wrapper {
+    padding-left: 50px;
+}
+
+.form-inline.form-paragraph .form-control {
+    min-width: 300px;
+}
+
+.form-inline.form-paragraph label {
+    padding-right: 10px;
+}
+
+/** Well **/
+.well {
+    border-radius: 0;
+    box-shadow: none;
+    color: #515151;
+    background: #ffffff;
+    border: solid 3px #d9d9d9;
+    padding: 15px;
+}
+/** Panel **/
+.panel.panel-gray {
+    background: #d9d9d9;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.panel-gray .panel-heading {
+    border-radius: 0;
+}
+
+.panel-filter .panel-heading {
+    padding: 0;
+    border-bottom: solid 1px #000000;
+}
+
+.panel-filter .panel-heading .panel-title a {
+    display: block;
+    padding: 10px 40px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    color: #018077;
+}
+
+.panel-filter .panel-heading .panel-title a span {
+    margin-right: 10px;
+}
+
+.panel-filter .panel-heading .panel-title a.collapsed {
+    color: #515151;
+}
+
+.panel-filter .panel-heading .panel-title a.collapsed .caret-filter:before {
+    content: "\f13a";
+}
+
+.panel-filter .panel-heading {
+
+}
+/** Pagination **/
+.pager {
+    margin: auto;
+}
+
+.pager li > a,
+.pager li > span {
+    border: none;
+    background: transparent;
+    padding: 5px;
+    font-size: 16px;
+    transition: all 0.2s linear;
+}
+
+.pager li > a:hover {
+    background: transparent;
+    color: #515151;
+}
+
+.pager li > a {
+    color: #018077;
+}
+
+.pager li.disabled > a,
+.pager li.disabled > span {
+    color: #929292;
+    background: transparent;
+}
+
+.pager li.disabled > a i,
+.pager li.disabled > span i {
+    color: #7ac2bf;
+}
+
+.pagination {
+    margin: auto;
+    border: none;
+    background: transparent;
+}
+
+.pagination > li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagination > li i {
+    transition: all 0.2s linear;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    color: #626262;
+    font-size: 16px;
+    font-weight: normal;
+    transition: all 0.2s linear;
+}
+
+.pagination > li > a:hover,
+.pagination > li.active > a,
+.pagination > li.active > span,
+.pagination > li.active > a:hover,
+.pagination > li.active > span:hover {
+    background: transparent;
+    color: #515151;
+    font-weight: bold;
+}
+
+.pagination > li > a:hover i {
+    color: #515151;
+}
+
+.pagination li.previous i,
+.pagination li.previous i {
+    margin-left: 10px;
+}
+
+.pagination li.next i,
+.pagination li.next i {
+    margin-right: 10px;
+}
+
+.pagination li.disabled > a,
+.pagination li.disabled > span {
+    color: #929292;
+    background: transparent;
+    cursor: default;
+}
+
+.pagination li.disabled > a:hover,
+.pagination li.disabled > span:hover {
+    opacity: 1;
+    background: transparent;
+    font-weight: normal;
+    color: #929292;
+    cursor: default;
+}
+
+.pagination li.disabled > a i,
+.pagination li.disabled > span i {
+    color: #7ac2bf;
+}
+
+.pagination > li > a i {
+    color: #25928d;
+}
+/** Region **/
+h2.region-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px 0  5px 10px;
+    border-left: solid 10px #0076cd;
+    font-size: 28px;
+}
+
+h2.region-title span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.region-main .region-heading {
+    margin-bottom: 25px;
+}
+
+.region-main .region-heading .pager {
+    margin-top: 4px;
+}
+
+.region-main .region-content.radius-table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.region-main .region-content.bordered {
+    border: solid 1px #d9d9d9;
+}
+
+.region-footer {
+    margin: 20px 0;
+    border: solid 1px #d9d9d9;
+    background: #ffffff;
+    border-radius: 5px;
+}
+/** Magnific Popup **/
+.mfp-bg {
+    z-index: 10000;
+}
+
+.mfp-wrap {
+    z-index: 10001;
+}
+
+.mfp-content {
+    margin: auto;
+    width: 100%;
+    max-width: 950px;
+    background: #ffffff;
+    height: auto;
+}
+
+.white-popup {
+    background: #ffffff;
+}
+
+.popup-wrapper {
+    padding: 40px 25px;
+}
+
+.mfp-close-btn-in .mfp-close {
+    line-height: 1;
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
+    right: 10px;
+    transition: all 0.2s linear;
+}
+
+.mfp-close-btn-in .mfp-close:hover {
+    color: #018077;
+}
+
+.mfp-close-btn-in .mfp-close .close-icon:before {
+    display: block;
+}
+
+h3.popup-heading {
+    border: solid 1px #515151;
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+h3.popup-heading:before {
+    content: " ";
+    float: left;
+    display: block;
+    width: 12px;
+    height: 100%;
+    background: #0076cd;
+    margin-right: 15px;
+}
+
+.popup-footer {
+    margin-top: 25px;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    /* ideally, transition speed should match zoom duration */
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+    opacity: 0;
+}
+/** Tab Table **/
+.tab-table table {
+    border: none;
+}
+
+.tab-table .tab-pane {
+    border: solid 2px #0076cd;
+}
+/** Request detail: Equipment Loan **/
+.equipment-load-tabs {
+    padding-top: 20px;
+}
+
+.equipment-load-tabs .tab-pane {
+    background: #ffffff;
+    padding: 25px;
+}
+/** Table Rows **/
+.table-with-rows .row-item {
+    padding: 0;
+}
+
+.table-with-rows label {
+    display: block;
+    padding-top: 8px;
+}
+
+.table-with-rows label,
+.table-with-rows p {
+    margin-bottom: 0;
+}
+
+.table-with-rows .row-item .row-line {
+    display: block;
+    height: 1px;
+    background: #d9d9d9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table-with-rows .row-item .cell-item {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+.table-with-rows.bordered .row-item .cell-item {
+    border: solid 1px #d9d9d9;
+}
+
+.table-with-rows .row-item.bottom-line .cell-item,
+.table-with-rows .row-item .bottom-line {
+    border-bottom: solid 1px #d9d9d9;
+}
+
+.table-with-rows .row-item.right-line .cell-item,
+.table-with-rows .row-item .right-line {
+    border-right: solid 1px #d9d9d9;
+}
+
+.table-with-rows .row-item p,
+.table-with-rows .row-item label {
+    margin-bottom: 0;
+}
+/** Table Additional **/
+.table.table-additional .add-row-cell {
+
+}
+
+.table.table-additional .add-row-cell .add-row-btn {
+
+}
+
+.table.table-additional .add-row-cell .add-row-btn .add-row-icon {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/** Table Collapse Gray **/
+.table.table-collapse-gray .collapse-title {
+    line-height: 28px;
+}
+
+.table.table-collapse-gray .toggle-collapse .icon-collapse {
+    color: #515151;
+}
+
+.table.table-collapse-gray .toggle-collapse:hover .icon-collapse {
+    color: #ffffff;
+}
+
+.table-collapse-gray.table-bordered {
+    border-width: 3px;
+}
+
+/** Additional Registration **/
+.additional-registration-popup .table-with-rows {
+    margin-bottom: 20px;
+}
+.additional-registration-popup .table-additional {
+    margin-bottom: 40px;
+}
+/** Force Spinner Style **/
+.force-spinner:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

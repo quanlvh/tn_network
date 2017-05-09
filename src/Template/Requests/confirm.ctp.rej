@@ -1,0 +1,10 @@
+diff a/src/Template/Requests/confirm.ctp b/src/Template/Requests/confirm.ctp	(rejected hunks)
+@@ -731,7 +731,7 @@
+ 	        ?>
+             <tr>
+                 <td>小計（税別）：</td>
+-                <td colspan="3">　&yen;<?=number_format($amount['request_charge']);?><?= $this->Form->input('unit_price_detail_name')?></td>
++                <td colspan="3">　&yen;<?=number_format($amount['request_charge']);?></td>
+             </tr>
+             <tr>
+                 <td>合計（税込）：</td>
