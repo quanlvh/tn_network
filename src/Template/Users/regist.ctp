@@ -77,11 +77,17 @@
   <!-- Close Table Body -->
   </table>
 </div>
-<div>
-  <div class="form-actions text-right">
-      <button class="btn-default" onclick="window.location.href='/Users/login';">戻る</button>
-      <button class="btn-warning" onclick="submit();">申請</button>
-  </div>
+<div class="container">
+    <div class="row">
+        <div class="span6 offset3">
+            <form>
+                <p style="text-align: center;">
+                  <button class="btn-warning" onclick="window.location.href='/Users/login';">戻る</button>
+                  <button class="btn-warning" onclick="window.location.href='/Users/confirm';">次に</button>
+                </p>
+            </form>
+        </div>
+    </div>
 </div>
 <?= $this->Form->hidden('password',['value'=> $tmp_pass]) ?>
 <?= $this->Form->hidden('password_conf',['value'=> $tmp_conf]) ?>
