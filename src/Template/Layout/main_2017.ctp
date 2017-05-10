@@ -224,9 +224,23 @@
                         <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
                             <div class="panel-body">
                                 <ul class="list-group menu-sidebar">
-                                    <li class="list-group-item"><a href="#">マスタメンテナンス
-                                            <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
                                     <li class="list-group-item"><a href="#">各種資料
+                                            <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
+                                    <li class="list-group-item"><a href="javascript: void(0);" onclick="window.location.href='/companyInfoMaintenance/index';">会社情報メンテナンス
+                                            <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
+                                    <li class="list-group-item"><a href="#">事業所情報メンテナンス
+                                            <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
+                                    <li class="list-group-item"><a href="#">ユーザ情報メンテナンス
+                                            <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
+                                    <li class="list-group-item"><a href="javascript: void(0);" onclick="window.location.href='/availableAreasMaintenance/index';">対応可能エリアメンテナンス
+                                            <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
+                                    <li class="list-group-item"><a href="#">機器マスタメンテナンス
+                                            <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
+                                    <li class="list-group-item"><a href="#">お知らせメンテナンス
+                                            <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
+                                    <li class="list-group-item"><a href="#">単価マスタメンテナンス
+                                            <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
+                                    <li class="list-group-item"><a href="#">サービス利用規約メンテナンス
                                             <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>

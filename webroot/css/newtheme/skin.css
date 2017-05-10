@@ -244,8 +244,15 @@ a.btn {
     padding-top: 20px;
 }
 
+.panel.fixtop {
+    padding-top: 5px !important;
+}
+
 .panel.panel-table .panel-body {
     padding: 0;
+}
+.panel.panel-table .panel-body.textcenter {
+    text-align: center;
 }
 
 .panel.panel-table .panel-body.bordered {

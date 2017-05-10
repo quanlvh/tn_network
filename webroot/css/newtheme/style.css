@@ -589,6 +589,10 @@ a:not(.btn):focus {
     line-height: 28px;
 }
 
+.table.table-text .center {
+    text-align: center;
+}
+
 .pre-save-confirm {
     padding-top: 15px;
 }
@@ -836,6 +840,13 @@ h2.region-title span {
     margin-right: 10px;
     font-weight: normal;
 }
+h3.region-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px 0  5px 10px;
+    border-left: solid 5px #0076cd;
+    font-size: 18px;
+}
 
 .region-main .region-heading {
     margin-bottom: 25px;
@@ -1061,4 +1072,10 @@ h3.popup-heading:before {
     position: fixed;
     top: 0;
     left: 0;
+}
+.force-col-sm-3 {
+    width: 15% !important;
+    padding-left: 0px !important;
+    padding-right: 5px !important;
+
 }

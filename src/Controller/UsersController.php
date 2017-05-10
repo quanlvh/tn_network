@@ -340,6 +340,7 @@ Log::debug($query);
     public function regist()
     {
     	$error = false;
+        /*
     	$query = $this->Users->find();
     	$query->select(['user_id']);
     	foreach ($query as $row) {
@@ -349,7 +350,7 @@ Log::debug($query);
     			break;
     		}
     	}
-
+        */
     	// 所属会社情報取得
     	$company = TableRegistry::get('mst_companies');
     	$companies = $company->find()->enableHydration(false)
@@ -392,7 +393,9 @@ Log::debug($query);
     	$this->set('post',$this->request->getData());
 
     }
-
+    public function confirm() {
+        echo "xxx";
+    }
     /**
      * Delete method
      *

@@ -200,3 +200,14 @@ table.list td {
 	border-right: 1px solid #000000;
 	border-bottom: 1px solid #000000;
 }
+/*
+New theme
+*/
+#newheader_area {
+    width: 100%;
+    height: 80px;
+    border-bottom: 3px #0077cc solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
