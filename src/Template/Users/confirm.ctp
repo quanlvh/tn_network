@@ -19,15 +19,21 @@
   <tbody>
   <!-- Begin Row -->
   <tr>
-      <td width="20%">ユーザーID</td>
+      <td width="20%">ユーザーID
+        <span class="label label-gray pull-right"><?= "必須" ?>
+      </td>
       <td><?= $this->Form->input('user_id',['label'=> false,'type'=>'text','placeholder'=>'半角で入力ください。','id'=>'u6264_input','required'=>true,'style'=>'ime-mode:disabled','class'=>'form-control']) ?></td>
   </tr>
   <tr>
-      <td>ユーザー名</td>
+      <td>ユーザー名
+        <span class="label label-gray pull-right"><?= "必須" ?>
+      </td>
       <td><?= $this->Form->input('user_name',['label'=>false,'type'=>'text','id'=>'u6269_input','required'=>true,'class'=>'form-control']) ?></td>
   </tr>
   <tr>
-      <td>メールアドレス1</td>
+      <td>メールアドレス1
+        <span class="label label-gray pull-right"><?= "必須" ?>
+      </td>
       <td><?= $this->Form->input('mail_addr_1',['label'=> false,'type'=>'text','id'=>'u6272_input','required'=>true,'class'=>'form-control']) ?></td>
   </tr>
   <tr>
@@ -35,7 +41,9 @@
       <td><?= $this->Form->input('mail_addr_2',['label'=> false,'type'=>'text','id'=>'u6272a_input','required'=>false,'class'=>'form-control']) ?></td>
   </tr>
   <tr>
-      <td>所属会社</td>
+      <td>所属会社
+        <span class="label label-gray pull-right"><?= "必須" ?>
+      </td>
       <td>
         <select class="form-control parent" name="company_code" required>
           <option value="" class="msg" disabled selected>---所属会社の選択---</option>
@@ -50,7 +58,9 @@
       </td>
   </tr>
   <tr>
-      <td>所属事業所</td>
+      <td>所属事業所
+        <span class="label label-gray pull-right"><?= "必須" ?>
+      </td>
       <td>
         <select class="form-control children" name="branch_code" disabled required>
           <option value="" class="msg" disabled selected>--所属事業所の選択--</option>
@@ -65,7 +75,9 @@
       </td>
   </tr>
   <tr>
-      <td>役職</td>
+      <td>役職
+        <span class="label label-gray pull-right"><?= "必須" ?>
+      </td>
       <td><?= $this->Form->input('position',['label'=>false,'type'=>'text','id'=>'u6281_input', 'class'=>'form-control']) ?></td>
   </tr>
   <!-- Close Row -->
