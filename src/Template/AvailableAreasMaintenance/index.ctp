@@ -9,7 +9,7 @@
     <!-- Begin Region Heading -->
     <div class="row">
         <div class="col-sm-12">
-            <h3 class="region-title">ダミー</h3>
+            <h3 class="region-title">対応可能エリア一覧</h3>
         </div>
     </div>
     <!-- Close Region Heading -->
@@ -21,7 +21,7 @@
                 <!-- Begin Table Header -->
                 <thead>
                 <tr>
-                    <th colspan="4"><?= "ダミー" ?></th>
+                    <th colspan="4"><?= "  対応可能エリア" ?></th>
                 </tr>
                 </thead>
                 <!-- Close Table Header -->
@@ -30,7 +30,7 @@
                 <!-- Begin Row 1 -->
                 <tr>
                     <td>
-                        <?= "ダミー" ?>
+                        <?= "東京部中央区" ?>
                     </td>
                     <td width="10%" class="center">
                         <input type="checkbox" id="#" name="#">
@@ -39,7 +39,7 @@
                 <!-- Begin Row 2 -->
                 <tr>
                     <td>
-                        <?= "ダミー" ?>
+                        <?= "東京部港区" ?>
                     </td>
                     <td width="10%" class="center">
                         <input type="checkbox" id="#" name="#">
@@ -48,7 +48,7 @@
                 <!-- Begin Row 3 -->
                 <tr>
                     <td>
-                        <?= "ダミー" ?>
+                        <?= "東京部品川区" ?>
                     </td>
                     <td width="10%" class="center">
                         <input type="checkbox" id="#" name="#">
@@ -57,7 +57,7 @@
                 <!-- Begin Row 4 -->
                 <tr>
                     <td>
-                        <?= "ダミー" ?>
+                        <?= "東京部目黒区" ?>
                     </td>
                     <td width="10%" class="center">
                         <input type="checkbox" id="#" name="#">
@@ -66,7 +66,7 @@
                 <!-- Begin Row 5 -->
                 <tr>
                     <td>
-                        <?= "ダミー" ?>
+                        <?= "東京部渋谷区" ?>
                     </td>
                     <td width="10%" class="center">
                         <input type="checkbox" id="#" name="#">
@@ -79,8 +79,8 @@
 
         <div class="panel-footer">
             <div class="form-actions text-right">
-                <a href="#" class="btn btn-warning btn-lg open-popup-link"><?= "ダミー" ?></a>
-                <button class="btn btn-warning btn-lg"><?= "ダミー" ?></button>
+<!--                 <a href="#" class="btn btn-warning btn-lg open-popup-link"><?= "ダミー" ?></a> -->
+                <button class="btn btn-warning btn-lg"><?= "チェックした対応可能エリアを削除" ?></button>
             </div>
         </div>
     </div>
@@ -88,7 +88,7 @@
     <!-- Begin Region Heading -->
     <div class="row">
         <div class="col-sm-12">
-            <h3 class="region-title">ダミー</h3>
+            <h3 class="region-title">対応可能エリア登録</h3>
         </div>
     </div>
     <!-- Close Region Heading -->
@@ -97,21 +97,21 @@
             <div class="col-sm-3 force-col-sm-3">
                 <div class="form-group">
                     <select class="form-control">
-                        <option value="" selected>---ダミー---</option>
-                        <option value="">ダミー</option>
-                        <option value="">ダミー</option>
+                        <option value="" selected>石川県</option>
+<!--                         <option value="">能美市</option>
+                        <option value="">能美市</option> -->
                     </select>
                 </div>
             </div>
             <div class="col-sm-3 force-col-sm-3">
                 <div class="form-group">
                     <select class="form-control">
-                        <option value="" selected>---ダミー---</option>
+                        <option value="" selected>能美市</option>
                     </select>
                 </div>
             </div>
             <div class="col-sm-3 force-col-sm-3">
-                <button class="btn btn-warning btn-md full-width">登録</button>
+                <button class="btn btn-warning btn-md full-width">追加</button>
             </div>
         </div>
     </div>

@@ -94,7 +94,7 @@
     <div class="region-heading">
         <div class="row">
             <div class="col-sm-8">
-                <h2 class="region-title">依頼内容の確認<span class="danger-color"><?= "36件" ?></span></h2>
+                <h2 class="region-title">会社一覧<span class="danger-color"><?= "36件" ?></span></h2>
             </div>
             <div class="col-sm-4">
                 <nav>
