@@ -263,7 +263,15 @@
 
         </div>
     </main>
-
+    <footer>
+        <!-- Begin Footer Row -->
+        <div class="row bg-primary footer-row text-center">
+            <div class="col-sm-12">
+                <p><a href="#">受託</a>&nbsp;&nbsp;&nbsp;<a href="#">各種機能</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>Copyright (c) TAIYO NIPPON SANSO CORPORATION. All rights reserved.</small></p>
+            </div>
+        </div>
+        <!-- Close Footer Row -->
+    </footer>
 </div>
 </body>
 </html>
