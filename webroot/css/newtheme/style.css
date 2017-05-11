@@ -1077,5 +1077,9 @@ h3.popup-heading:before {
     width: 15% !important;
     padding-left: 0px !important;
     padding-right: 5px !important;
-
+}
+.force-col-sm-4 {
+    width: 25% !important;
+    padding-left: 0px !important;
+    padding-right: 5px !important;
 }

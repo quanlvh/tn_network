@@ -92,10 +92,10 @@
 <div class="region-main">
     <?php
         if($page) {
-            echo $this->element("NewTheme/CompanyInfo/{$page}");
+            echo $this->element("NewTheme/UserInfo/{$page}");
         }
         else {
-            echo $this->element('NewTheme/CompanyInfo/index');
+            echo $this->element('NewTheme/UserInfo/index');
         }
     ?>
 </div>

@@ -228,9 +228,9 @@
                                             <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
                                     <li class="list-group-item"><a href="javascript: void(0);" onclick="window.location.href='/companyInfoMaintenance/index';">会社情報メンテナンス
                                             <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
-                                    <li class="list-group-item"><a href="#">事業所情報メンテナンス
+                                    <li class="list-group-item"><a href="javascript: void(0);" onclick="window.location.href='/officeInfoMaintenance/index';">事業所情報メンテナンス
                                             <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
-                                    <li class="list-group-item"><a href="#">ユーザ情報メンテナンス
+                                    <li class="list-group-item"><a href="javascript: void(0);" onclick="window.location.href='/userInfoMaintenance/index';">ユーザ情報メンテナンス
                                             <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>
                                     <li class="list-group-item"><a href="javascript: void(0);" onclick="window.location.href='/availableAreasMaintenance/index';">対応可能エリアメンテナンス
                                             <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></a></li>

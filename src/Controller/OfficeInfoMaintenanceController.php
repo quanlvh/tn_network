@@ -3,7 +3,7 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 
-class CompanyInfoMaintenanceController extends AppController
+class OfficeInfoMaintenanceController extends AppController
 {
     public function index($page = FALSE)
     {
