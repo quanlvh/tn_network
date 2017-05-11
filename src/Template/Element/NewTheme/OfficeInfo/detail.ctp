@@ -53,6 +53,7 @@
                     <div class="col-sm-4 force-col-sm-4">
                         <input type="text" class="form-control" id="21" name="21">
                     </div>
+                    <div class="col-sm-1 force-col-sm-1" style="padding: 0; width: 10px;"> - </div>
                     <div class="col-sm-4 force-col-sm-4">
                         <input type="text" class="form-control" id="22" name="22">
                     </div>

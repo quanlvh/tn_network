@@ -8,7 +8,11 @@
 <?= $this->Html->script('UserMaster/regist/data.js') ?>
 <?= $this->Html->script('data/document.js') ?>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
+<style>
+.pull-right {
+    float: right;
+}
+</style>
 <?= $this->Form->create() ?>
 <div>
   <table class="table table-default table-bordered table-text">

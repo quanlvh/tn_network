@@ -4,7 +4,11 @@
 
 <?= $this->Html->css('newtheme/skin.css') ?>
 <?= $this->Html->css('newtheme/style.css') ?>
-
+<style>
+.pull-right {
+    float: right;
+}
+</style>
 <?= $this->Form->create() ?>
 <div>
   <table class="table table-default table-bordered table-text">
