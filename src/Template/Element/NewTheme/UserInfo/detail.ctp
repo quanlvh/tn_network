@@ -11,7 +11,7 @@
             <tr>
                 <td width="20%">
                     ユーザID
-                    <span class="label label-gray pull-right">必須</span>
+                    <span class="label label-gray pull-right">必須</span></td>
                 </td>
                 <td>
                     <input type="text" class="form-control" id="1" name="1">
@@ -20,7 +20,7 @@
             <tr>
                 <td>
                     ユーザ名
-                    <span class="label label-gray pull-right">必須</span>
+                    <span class="label label-gray pull-right">必須</span></td>
                 </td>
                 <td>
                     <input type="text" class="form-control" id="3" name="3">
@@ -29,7 +29,7 @@
             <tr>
                 <td>
                     メールアドレス1
-                    <span class="label label-gray pull-right">必須</span>
+                    <span class="label label-gray pull-right">必須</span></td>
                 </td>
                 <td>
                     <input type="text" class="form-control" id="3" name="3">
