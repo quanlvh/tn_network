@@ -349,6 +349,7 @@ Log::debug($query);
     			break;
     		}
     	}
+
     	// 所属会社情報取得
     	$company = TableRegistry::get('mst_companies');
     	$companies = $company->find()->enableHydration(false)
