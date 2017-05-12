@@ -90,7 +90,7 @@
 <!-- Close Region Footer -->
 <!-- Begin Panel Table 1 -->
 <div class="panel panel-table">
-    <h3 class="heading-blue">資料一アップロードｖ</h3>
+    <h3 class="heading-blue">資料一アップロード</h3>
     <div class="panel-body">
         <table class="table table-default table-bordered table-text">
             <!-- Begin Table Body -->
@@ -102,7 +102,12 @@
                     <span class="label label-gray pull-right">必須</span></td>
                 </td>
                 <td>
-                    <input type="text" class="form-control" id="1" name="1">
+                    <div class="col-sm-8 force-col-sm-4">
+                        <div class="form-group">
+                            <select class="form-control">
+                            </select>
+                        </div>
+                    </div>
                 </td>
             </tr>
             <!-- Close Row 1 -->
@@ -113,14 +118,7 @@
                     <span class="label label-gray pull-right">必須</span></td>
                 </td>
                 <td>
-                    <div class="col-sm-4 force-col-sm-4">
-                        <div class="form-group">
-                            <select class="form-control">
-                            </select>
-                        </div>
-                    </div>
-
-
+                    <input type="text" class="form-control" id="1" name="1">
                 </td>
             </tr>
             <!--Close Row 2 -->
