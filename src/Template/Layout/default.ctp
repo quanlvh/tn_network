@@ -39,7 +39,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?=$this->Html->script('jquery.funcResizeBox.js')?>
     <?= $this->Html->css('select2.min.css'); ?>
     <?= $this->Html->script('select2.min.js', array('inline' => false)); ?>
-
+    <?= $this->Html->css('newtheme/custom.css') ?>
 <script type="text/javascript">
 $(function(){
     $("#datepicker").datepicker({
@@ -80,7 +80,7 @@ $(function(){
     <?= $this->fetch('script') ?>
 </head>
 <body>
-    <div id="header_area">
+    <div class="container" id="header_area">
         <!--ロゴ-->
         <div id="logo_area" onclick="window.location.href='/mypage';"></div>
         <!--システム名-->
