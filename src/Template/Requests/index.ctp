@@ -1,113 +1,140 @@
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Request'), ['action' => 'add']) ?></li>
-    </ul>
-</nav>
-<div class="requests index large-9 medium-8 columns content">
-    <h3><?= __('Requests') ?></h3>
-    <table cellpadding="0" cellspacing="0">
+<!-- Begin Sub Title -->
+<h2 class="page-sub-title"><?= "各種資料" ?></h2>
+<!-- Close Sub Title -->
+
+<!-- Begin Region Content -->
+<div class="region-content radius-table">
+    <h3 class="heading-blue">資料一覧</h3>
+    <!-- Begin List Requests Table Data -->
+    <table class="table table-brown table-data table-bordered table-centered">
+        <!-- Begin Table Header -->
         <thead>
-            <tr>
-                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('request_no') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('offer_date') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('status') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('user_kana') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('user_name') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('user_addr') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('user_tel') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('user_mobile') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('lodging_place_name') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('lodging_place_addr') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('lodging_place_tel') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('lodging_place_staff_name') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('subscriber_name') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('is_acceptable') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('is_past_setting') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('past_setting_year') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('past_setting_month') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('stay_from_date') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('stay_to_date') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('setting_preferred_date') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('setting_preferred_time') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('is_before_setting') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('pickup_preferred_date') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('pickup_preferred_time') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('is_after_collectable') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('request_company_code') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('request_company_staff_name') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('is_approval') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('hospital_name') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('doctor_name') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('temporary_saving_flg') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('cancel_flg') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('machine_code') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('contractor_company_code') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('updated_at') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('updated_by') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('created_at') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('created_by') ?></th>
-                <th scope="col" class="actions"><?= __('Actions') ?></th>
-            </tr>
+        <tr>
+            <th><?= "依頼番号" ?></th>
+            <th><?= "滞在期間" ?></th>
+            <th><?= "宿泊先" ?></th>
+            <th><?= "設置機器" ?></th>
+            <th><?= "削除" ?></th>
+        </tr>
         </thead>
+        <!-- Close Table Header -->
+        <!-- Begin Table Body -->
         <tbody>
-            <?php foreach ($requests as $request): ?>
+        <tr>
+            <td><?= "13-0000049" ?></td>
+            <td><?= "2017/02/22 ～2017/02/25" ?></td>
+            <td><?= "テスト旅館神奈川県相模原市中央区 " ?></td>
+            <td><?= "酸素濃縮器" ?></td>
+            <td><input type="checkbox" id="c1" name="c1"></td>
+        </tr>
+        <tr>
+            <td><?= "13-0000049" ?></td>
+            <td><?= "2017/02/22 ～2017/02/25" ?></td>
+            <td><?= "テスト旅館神奈川県相模原市中央区 " ?></td>
+            <td><?= "酸素濃縮器" ?></td>
+            <td><input type="checkbox" id="c1" name="c1"></td>
+        </tr>
+        <tr>
+            <td><?= "13-0000049" ?></td>
+            <td><?= "2017/02/22 ～2017/02/25" ?></td>
+            <td><?= "テスト旅館神奈川県相模原市中央区 " ?></td>
+            <td><?= "酸素濃縮器" ?></td>
+            <td><input type="checkbox" id="c1" name="c1"></td>
+        </tr>
+        <tr>
+            <td><?= "13-0000049" ?></td>
+            <td><?= "2017/02/22 ～2017/02/25" ?></td>
+            <td><?= "テスト旅館神奈川県相模原市中央区 " ?></td>
+            <td><?= "酸素濃縮器" ?></td>
+            <td><input type="checkbox" id="c1" name="c1"></td>
+        </tr>
+        <tr>
+            <td><?= "13-0000049" ?></td>
+            <td><?= "2017/02/22 ～2017/02/25" ?></td>
+            <td><?= "テスト旅館神奈川県相模原市中央区 " ?></td>
+            <td><?= "酸素濃縮器" ?></td>
+            <td><input type="checkbox" id="c1" name="c1"></td>
+        </tr>
+        </tbody>
+        <!-- Close Table Body -->
+    </table>
+    <!-- Close List Requests Table Data -->
+</div>
+<!-- Close Region Content -->
+
+<!-- Begin Region Footer -->
+<div class="region-footer text-center">
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            <li class="disabled previous">
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true"><?= "前のページ" ?><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                </a>
+            </li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li class="next">
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true"><i class="fa fa-chevron-right" aria-hidden="true"></i><?= "次のページ" ?></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+    <div class="form-actions text-right">
+        <button class="btn btn-warning btn-lg"><?= "チェックしたファイルを削除" ?></button>
+    </div>
+<!-- Close Region Footer -->
+<!-- Begin Panel Table 1 -->
+<div class="panel panel-table">
+    <h3 class="heading-blue">資料一アップロードｖ</h3>
+    <div class="panel-body">
+        <table class="table table-default table-bordered table-text">
+            <!-- Begin Table Body -->
+            <tbody>
+            <!-- Begin Row 1 -->
             <tr>
-                <td><?= h($request->id) ?></td>
-                <td><?= h($request->request_no) ?></td>
-                <td><?= h($request->offer_date) ?></td>
-                <td><?= $this->Number->format($request->status) ?></td>
-                <td><?= h($request->user_kana) ?></td>
-                <td><?= h($request->user_name) ?></td>
-                <td><?= h($request->user_addr) ?></td>
-                <td><?= h($request->user_tel) ?></td>
-                <td><?= h($request->user_mobile) ?></td>
-                <td><?= h($request->lodging_place_name) ?></td>
-                <td><?= h($request->lodging_place_addr) ?></td>
-                <td><?= h($request->lodging_place_tel) ?></td>
-                <td><?= h($request->lodging_place_staff_name) ?></td>
-                <td><?= h($request->subscriber_name) ?></td>
-                <td><?= h($request->is_acceptable) ?></td>
-                <td><?= h($request->is_past_setting) ?></td>
-                <td><?= h($request->past_setting_year) ?></td>
-                <td><?= h($request->past_setting_month) ?></td>
-                <td><?= h($request->stay_from_date) ?></td>
-                <td><?= h($request->stay_to_date) ?></td>
-                <td><?= h($request->setting_preferred_date) ?></td>
-                <td><?= h($request->setting_preferred_time) ?></td>
-                <td><?= h($request->is_before_setting) ?></td>
-                <td><?= h($request->pickup_preferred_date) ?></td>
-                <td><?= h($request->pickup_preferred_time) ?></td>
-                <td><?= h($request->is_after_collectable) ?></td>
-                <td><?= h($request->request_company_code) ?></td>
-                <td><?= h($request->request_company_staff_name) ?></td>
-                <td><?= h($request->is_approval) ?></td>
-                <td><?= h($request->hospital_name) ?></td>
-                <td><?= h($request->doctor_name) ?></td>
-                <td><?= h($request->temporary_saving_flg) ?></td>
-                <td><?= h($request->cancel_flg) ?></td>
-                <td><?= h($request->machine_code) ?></td>
-                <td><?= h($request->contractor_company_code) ?></td>
-                <td><?= h($request->updated_at) ?></td>
-                <td><?= h($request->updated_by) ?></td>
-                <td><?= h($request->created_at) ?></td>
-                <td><?= h($request->created_by) ?></td>
-                <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $request->id]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $request->id]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $request->id], ['confirm' => __('Are you sure you want to delete # {0}?', $request->id)]) ?>
+                <td width="20%">
+                    ファイル九区分
+                    <span class="label label-gray pull-right">必須</span></td>
+                </td>
+                <td>
+                    <input type="text" class="form-control" id="1" name="1">
                 </td>
             </tr>
-            <?php endforeach; ?>
-        </tbody>
-    </table>
-    <div class="paginator">
-        <ul class="pagination">
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
-            <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-        </ul>
-        <p><?= $this->Paginator->counter() ?></p>
+            <!-- Close Row 1 -->
+            <!-- Begin Row 2 -->
+            <tr>
+                <td>
+                    ファイル参照
+                    <span class="label label-gray pull-right">必須</span></td>
+                </td>
+                <td>
+                    <div class="col-sm-4 force-col-sm-4">
+                        <div class="form-group">
+                            <select class="form-control">
+                            </select>
+                        </div>
+                    </div>
+
+
+                </td>
+            </tr>
+            <!--Close Row 2 -->
+            </tbody>
+            <!-- Close Table Body -->
+        </table>
+    </div>
+
+    <div class="panel-footer">
+        <div class="form-actions pull-left">
+            <button class="btn btn-warning btn-lg"><?= "戻る" ?></button>
+        </div>
+        <div class="form-actions pull-right">
+            <button class="btn btn-warning btn-lg"><?= "登録" ?></button>
+        </div>
     </div>
 </div>

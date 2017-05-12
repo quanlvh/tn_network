@@ -19,8 +19,9 @@ class RequestsController extends AppController
 
     public function index()
     {
-        $this->autoRender = false;
-        $this->redirect(['action' => 'pref']);
+        $this->viewBuilder()->setLayout('main_2017');
+        //$this->autoRender = false;
+        //$this->redirect(['action' => 'pref']);
     }
 
     /*
