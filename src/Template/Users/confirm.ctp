@@ -102,11 +102,11 @@
         </div>
     </div>
 </div>
-<!-- <?= $this->Form->hidden('password',['value'=> $tmp_pass]) ?>
+<?= $this->Form->hidden('password',['value'=> $tmp_pass]) ?>
 <?= $this->Form->hidden('password_conf',['value'=> $tmp_conf]) ?>
 <?= $this->Form->hidden('user_role',['value'=> $tmp_role]) ?>
 <?= $this->Form->hidden('applying',['value'=> $tmp_apply]) ?>
-<?= $this->Form->hidden('created_at',['value'=> $created_at]) ?> -->
+<?= $this->Form->hidden('created_at',['value'=> $created_at]) ?>
 <?= $this->Form->end() ?>
 <?= $this->Html->script('Useres/add/select_work.js') ?>
 </body>
